@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Harry Potter Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+```
+<!-- A. Tiêu đề + Thanh điều hướng -->
+<header>
+    <h1>Harry Potter Review</h1>
+
+    <nav>
+        <a href="books.html">Review sách</a>
+        <a href="films.html">Phim</a>
+        <a href="author.html">Tác giả</a>
+        <a href="characters.html">Nhân vật</a>
+    </nav>
+</header>
+
+<section id="characters">
+    <h2>Hệ thống nhân vật chính</h2>
+
+    <ul class="char-nav">
+        <li><a href="#harry">Harry Potter</a></li>
+        <li><a href="#hermione">Hermione Granger</a></li>
+        <li><a href="#ron">Ron Weasley</a></li>
+        <li><a href="#voldemort">Lord Voldemort</a></li>
+        <li><a href="#dumbledore">Albus Dumbledore</a></li>
+    </ul>
+
+    <div id="harry" class="char-card">
+        <h3>Harry Potter</h3>
+        <div class="char-flex">
+            <img src="https://tiki.vn/blog/wp-content/uploads/2023/08/harry-potter-thumb.jpg" class="char-portrait">
+            <div class="char-info">
+                <p><strong>Tiểu sử:</strong> "Cậu bé sống sót", người duy nhất sống sót sau lời nguyền chết chóc của Voldemort.</p>
+                <p><strong>Năng lực:</strong> Đuổi bắt (Quidditch), Phòng chống Nghệ thuật Hắc ám.</p>
+                <p><strong>Vai trò:</strong> Nhân vật trung tâm của câu chuyện, người dẫn dắt cuộc chiến chống lại Voldemort.</p>
+                <p><strong>Mục tiêu:</strong> Bảo vệ bạn bè, tiêu diệt các Trường Sinh Linh Giá và đánh bại Voldemort.</p>
+                <blockquote>"Chính lựa chọn của chúng ta cho thấy chúng ta thực sự là ai, hơn là khả năng của mình."</blockquote>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="hermione" class="char-card">
+        <h3>Hermione Granger</h3>
+        <div class="char-flex">
+            <img src="https://i.redd.it/motla7vyqbo51.jpg" class="char-portrait">
+            <div class="char-info">
+                <p><strong>Tiểu sử:</strong> Cô bạn thân nhất của Harry, phù thủy gốc Muggle tài năng nhất.</p>
+                <p><strong>Năng lực:</strong> Ghi nhớ tuyệt vời, bùa chú phức tạp, tư duy logic.</p>
+                <p><strong>Vai trò:</strong> "Cố vấn" chiến lược cho cả nhóm bộ ba.</p>
+                <p><strong>Mục tiêu:</strong> Bảo vệ thế giới phù thủy khỏi thế lực hắc ám và đấu tranh cho sự công bằng giữa các phù thủy và sinh vật phép thuật.</p>
+                <blockquote>"Nỗi sợ của cái tên chỉ làm tăng nỗi sợ của chính điều đó."</blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div id="ron" class="char-card">
+        <h3>Ron Weasley</h3>
+        <div class="char-flex">
+            <img src="https://contentful.harrypotter.com/usf1vwtuqyxm/1OPXpRc8l6l1HU4rA65u45/9f95e4195c4a6afbcab8ecccd61aaf88/WB-F1-philosophers-stone-ron-weasley-scarf-happy.jpg?q=75&fm=jpg&w=2560" class="char-portrait">
+            <div class="char-info">
+                <p><strong>Tiểu sử:</strong> Con trai út nhà Weasley, người bạn đồng hành trung thành nhất của Harry.</p>
+                <p><strong>Năng lực:</strong> Chơi cờ phù thủy xuất chúng, lòng can đảm bền bỉ.</p>
+                <p><strong>Vai trò:</strong> Sự kết nối về mặt cảm xúc và gia đình cho Harry.</p>
+                <p><strong>Mục tiêu:</strong> Luôn sát cánh cùng Harry và Hermione để chống lại Voldemort và bảo vệ gia đình mình.</p>
+                <blockquote>"Nếu chúng ta chết vì họ, tôi sẽ giết anh!"</blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div id="dumbledore" class="char-card">
+        <h3>Albus Dumbledore</h3>
+        <div class="char-flex">
+            <img src="https://www.slashfilm.com/img/gallery/harry-potter-the-full-dumbledore-family-tree-explained/intro-1746633004.webp" class="char-portrait">
+            <div class="char-info">
+                <p><strong>Tiểu sử:</strong> Hiệu trưởng trường Hogwarts, phù thủy vĩ đại nhất mọi thời đại.</p>
+                <p><strong>Năng lực:</strong> Pháp thuật tối cao, trí tuệ uyên thâm, hiểu thấu tâm tư con người.</p>
+                <p><strong>Vai trò:</strong> Người thầy, người dẫn đường cho Harry trong cuộc chiến chống lại cái ác.</p>
+                <p><strong>Mục tiêu:</strong> Chuẩn bị cho Harry đối đầu với Voldemort và bảo vệ thế giới phù thủy khỏi bóng tối.</p>
+                <blockquote>"Đừng bám lấy những giấc mơ mà quên đi cuộc sống thực tại."</blockquote>
+            </div>
+        </div>
+    </div>
+
+    <div id="voldemort" class="char-card">
+        <h3>Lord Voldemort</h3>
+        <div class="char-flex">
+            <img src="https://static.wikia.nocookie.net/harrypotter/images/9/97/Voldemort_Headshot_DHF1.png/revision/latest/scale-to-width-down/1000?cb=20161203031453" class="char-portrait">
+        <div class="char-info">
+            <p><strong>Tiểu sử:</strong> Tom Riddle - Phù thủy hắc ám đáng sợ nhất lịch sử, kẻ khao khát bất tử.</p>
+            <p><strong>Năng lực:</strong> Chiết tâm bí thuật, bay không cần chổi, pháp thuật đen cực đoan.</p>
+            <p><strong>Vai trò:</strong> Nhân vật phản diện chính của toàn bộ series, kẻ đứng đầu Tử thần Thực tử và là mối đe dọa lớn nhất của thế giới phù thủy.</p>
+            <p><strong>Mục tiêu:</strong> Thống trị thế giới phù thủy và tiêu diệt Harry Potter.</p>
+            <blockquote>"Không có tốt hay xấu, chỉ có quyền lực, và những kẻ quá yếu để tìm kiếm nó."</blockquote>
+
+        </div>
+    </div>
+
+    <h3>BẢNG SO SÁNH CHI TIẾT CÁC NHÂN VẬT</h3>
+    <div class="table-container">
+        <table class="master-table">
+            <thead>
+                <tr>
+                    <th>Tiêu chí</th>
+                    <th>Harry Potter</th>
+                    <th>Hermione Granger</th>
+                    <th>Ron Weasley</th>
+                    <th>Albus Dumbledore</th>
+                    <th>Lord Voldemort</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Sức mạnh đặc trưng</strong></td>
+                    <td>Bản năng chiến đấu, lòng dũng cảm</td>
+                    <td>Trí tuệ, kiến thức uyên bác</td>
+                    <td>Sự trung thành, chiến thuật cờ</td>
+                    <td>Pháp thuật tối cao, kinh nghiệm</td>
+                    <td>Nghệ thuật hắc ám, sự bất tử</td>
+                </tr>
+                <tr>
+                    <td><strong>Đũa phép (Cốt)</strong></td>
+                    <td>Lông phượng hoàng (Fawkes)</td>
+                    <td>Gân tim rồng</td>
+                    <td>Lông đuôi kỳ lân</td>
+                    <td>Lông đuôi Thestral (Đũa Cơm Nguội)</td>
+                    <td>Lông phượng hoàng (Fawkes)</td>
+                </tr>
+                <tr>
+                    <td><strong>Thần hộ mệnh</strong></td>
+                    <td>Con Hươu đực</td>
+                    <td>Rái cá</td>
+                    <td>Chó săn Jack Russell</td>
+                    <td>Phượng hoàng</td>
+                    <td>Không có (Do thiếu tình yêu)</td>
+                </tr>
+                <tr>
+                    <td><strong>Nhà tại Hogwarts</strong></td>
+                    <td>Gryffindor</td>
+                    <td>Gryffindor</td>
+                    <td>Gryffindor</td>
+                    <td>Gryffindor</td>
+                    <td>Slytherin</td>
+                </tr>
+                <tr>
+                    <td><strong>Nỗi sợ lớn nhất</strong></td>
+                    <td>Giám ngục Azkaban (Sự sợ hãi)</td>
+                    <td>Thất bại thi cử</td>
+                    <td>Nhện khổng lồ</td>
+                    <td>Cái chết của Ariana</td>
+                    <td>Cái chết (Sự tầm thường)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>Bốn Nhà tại Trường Hogwarts</h3>
+    <div class="houses-grid">
+        <div class="house-item gryffindor">Gryffindor<br><small>Dũng cảm & Nghĩa hiệp</small></div>
+        <div class="house-item slytherin">Slytherin<br><small>Tham vọng & Xảo quyệt</small></div>
+        <div class="house-item ravenclaw">Ravenclaw<br><small>Trí tuệ & Học thức</small></div>
+        <div class="house-item hufflepuff">Hufflepuff<br><small>Kiên trì & Công bằng</small></div>
+    </div>
+</section>
+```
+
+</div>
+
+```
+<footer>
+    <p>© 2026 Harry Potter Review</p>
+</footer>
+```
+
+</body>
+</html>
